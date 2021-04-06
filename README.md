@@ -1,8 +1,9 @@
 # HourGlass
 
+
+
 public static void hourGlass(int size) {
     int dimension = (size * 2) - 1, space = 0, stars = size - 1, printed = 0;
-
     for(int i=0; i<dimension; i++) {
         int actual = space;
         for (int j = dimension; j > 0; j--) {
